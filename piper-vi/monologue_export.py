@@ -5,7 +5,7 @@ from pydub import AudioSegment
 VOICE_MODEL = "vi_VN-vais1000-medium.onnx"
 
 # Văn bản độc thoại
-TEXT = "Xin chào, tôi là trợ lý Ây-Ai của bạn. Đây là một ví dụ về độc thoại được tạo bởi Pip-pơ."
+TEXT = "Xin chào, tôi là trợ lý Ây-Ai của bạn. Đây là một ví dụ về độc thoại được tạo bởi Pai-pơ."
 
 # File output
 OUTPUT_FILE = "monologue.wav"
@@ -26,3 +26,4 @@ def create_monologue(text, output_file=OUTPUT_FILE):
 
 if __name__ == "__main__":
     create_monologue(TEXT)
+
