@@ -13,27 +13,27 @@ https://huggingface.co/rhasspy/piper-voices/blob/main/vi/vi_VN/vivos/x_low/vi_VN
 https://huggingface.co/rhasspy/piper-voices/blob/main/vi/vi_VN/vivos/x_low/vi_VN-vivos-x_low.onnx.json
 
 2. Tạo môi trường ảo
+      
+        python3 -m venv piper-env
 
-      python3 -m venv piper-env
+4. Chuyển sang môi trường ảo
 
-3. Chuyển sang môi trường ảo
-
-      source piper-env/bin/activate
+        source piper-env/bin/activate
    
-4. Cài đặt thư viện
+5. Cài đặt thư viện
 
-      pip install piper-tts
+        pip install piper-tts
    
-      pip install pydub
+        pip install pydub
  
-5. Locate tới file path
+6. Locate tới file path
 
-      cd ~/piper-vi/
+        cd ~/piper-vi/
 
-6. Độc thoại
+7. Độc thoại
 
-      python monologue_export.py
+        python monologue_export.py
 
-7. Đối thoại
+8. Đối thoại
 
-      python dialogue_export.py
+        python dialogue_export.py
