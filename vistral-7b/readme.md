@@ -15,4 +15,4 @@
 5. 
 
         Thay HF_TOKEN
-        chạy generate.py
+        chạy lần lượt model_load --> run_podcast.py
